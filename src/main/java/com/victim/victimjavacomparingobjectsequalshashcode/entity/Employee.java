@@ -1,4 +1,4 @@
-package com.victim.victimjavacomparingobjectsequalshashcode;
+package com.victim.victimjavacomparingobjectsequalshashcode.entity;
 
 /**
  * @author Victim Musundire
@@ -9,7 +9,7 @@ public class Employee {
     int salary;
     String name;
 
-    Employee(String name, int age, int salary) {
+    public Employee(String name, int age, int salary) {
         this.name = name;
         this.age = age;
         this.salary = salary;
